@@ -12,7 +12,7 @@ cd snake
 ```bash
 pip install windows-curses
 ``` 
-Only needed on Windows. Linux, macOS, and BSD already include curses in Python.
+Only needed on Windows. Other operating systems already include curses in Python.
 
 ## Usage
 ```bash
