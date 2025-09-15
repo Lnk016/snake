@@ -1,7 +1,22 @@
 # Snake
-First program ever!! just a snake game in python. 
+First program ever!! Just a snake game in python. 
 
-I think it's cool
+## Installation
+### 1. Clone the repository
+```bash
+git clone https://github.com/Lnk016/snake.git
+cd snake
+```
 
-# How to run
+### 2. Dependencies
+```bash
+pip install windows-curses
+``` 
+Only needed on Windows. Linux, macOS, and BSD already include curses in Python.
+
+## Usage
+```bash
 python main.py
+```
+Arrow keys: movement
+q: quit the game
