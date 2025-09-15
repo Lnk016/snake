@@ -18,5 +18,6 @@ Only needed on Windows. Linux, macOS, and BSD already include curses in Python.
 ```bash
 python main.py
 ```
-Arrow keys: movement
-q: quit the game
+### Controls:
+Arrow keys → Move the snake  
+q → Quit the game
