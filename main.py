@@ -96,10 +96,10 @@ def main(stdscr):
 
             stdscr.refresh()
 
-        # Game Over Screen
+        # Game over screen
         stdscr.clear()
         msg1 = "GAME OVER!"
-        msg2 = f"Final Size: {size}"
+        msg2 = f"Final size: {size}"
         msg3 = "Press 'r' to restart or 'q' to quit"
         stdscr.addstr(SCREEN_Y // 2 - 1, SCREEN_X // 2 - len(msg1)//2, msg1)
         stdscr.addstr(SCREEN_Y // 2, SCREEN_X // 2 - len(msg2)//2, msg2)
